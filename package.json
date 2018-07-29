@@ -2,7 +2,7 @@
   "name": "protractor-cucumber-typescript-test-framework",
   "license": "MIT",
   "description": "To demonstrate protractor cucumber tests with typescript",
-  "author": "Michael Ho",
+  "author": "switbe",
   "scripts": {
     "install": "node node_modules/protractor/bin/webdriver-manager update",
     "test": "protractor protractor.conf.js"
