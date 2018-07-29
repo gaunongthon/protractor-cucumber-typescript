@@ -1,0 +1,33 @@
+{
+  "name": "protractor-cucumber-typescript-test-framework",
+  "license": "MIT",
+  "description": "To demonstrate protractor cucumber tests with typescript",
+  "author": "Michael Ho",
+  "scripts": {
+    "install": "node node_modules/protractor/bin/webdriver-manager update",
+    "test": "protractor protractor.conf.js"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.8",
+    "@types/chai-as-promised": "^7.1.0",
+    "@types/cucumber": "^2.1.0",
+    "@types/fs-extra": "^4.0.6",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^3.2.0",
+    "cucumber-html-reporter": "^4.0.3",
+    "jsonfile": "^4.0.0",
+    "protractor": "^5.4.0",
+    "protractor-cucumber-framework": "^4.1.1",
+    "protractor-image-comparison": "^1.6.0",
+    "thread-sleep": "^2.0.0",
+    "ts-node": "^4.0.1",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "@types/es6-promise": "^0.0.33",
+    "cucumber-html-report": "^0.6.3",
+    "moment": "^2.20.1"
+  },
+  "repository": "https://github.com/gaunongthon"
+}

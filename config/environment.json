@@ -1,0 +1,14 @@
+{
+  "login": {
+    "adminUser": "automationqa@test.com",
+    "adminPassword": "Pass1234",
+    "url": "http://automationpractice.com"
+  },
+  "report": {
+    "folder" : "reports"
+  },
+  "imageComparison":
+  {
+    "folder" : "imageComparison"
+  }
+}

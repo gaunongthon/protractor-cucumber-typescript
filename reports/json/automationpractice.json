@@ -1,0 +1,80 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Automation Practice Smoke test",
+    "line": 1,
+    "id": "automation-practice-smoke-test",
+    "tags": [],
+    "uri": "features/smoketest.feature",
+    "elements": [
+      {
+        "id": "automation-practice-smoke-test;smoke-test",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Smoke test",
+        "tags": [
+          {
+            "name": "@skipLogout",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinitions/hooks.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I am at \"Store\" page",
+            "match": {
+              "location": "stepDefinitions/common.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3848
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I log in Automation Practice",
+            "match": {
+              "location": "stepDefinitions/login.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2822
+            },
+            "embeddings": [
+              {
+                "data": "automationqa@test.com logged in",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinitions/hooks.ts:40"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
