@@ -1,7 +1,8 @@
 This project is to demo how to do automation web test by using protractor, cucumber, and chai.
 
 # How to prepare environment
-1. Start virtual environment
+1. Set up virtual environment
+
 Install virtual env (if not yet)
 ```
 pip install virtualenv
